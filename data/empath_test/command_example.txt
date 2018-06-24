@@ -1,0 +1,16 @@
+* Open API
+empath usage
+ - url : https://webempath.net/sign_in
+ 
+test sample :
+    1. anger
+    2. joy
+    3. skeptor
+    4. news
+
+Step by Step
+    1. create account
+    2. accquire apikey
+    3. API Request via curl ( windows10,  n-nix 공통 )
+      prompt>curl -F apikey:${accquired api-key after sign-up} -F wav=@${file-path} -X POST https://api.webempath.net/v2/analyzeWav
+    
